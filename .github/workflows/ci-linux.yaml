@@ -52,6 +52,9 @@ jobs:
                     - php-version: '8.1'
                       symfony-version: '6.4.*'
                       dependency-versions: 'lowest'
+                    - php-version: '8.4'
+                      symfony-version: '8.0.x-dev'
+                      dependency-versions: 'highest'
 
         steps:
             - name: Checkout code
